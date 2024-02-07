@@ -32,6 +32,8 @@ Respositório e Projeto em fase de concepção
 ## To Do
 - [ ] ```Em desenvolvimento``` Finalizar itens dos primeiros passos desse projeto
 - [ ] Alimentar README.md conforme evolução
+- [ ] Conectar VS Code com Wokwi
+- [ ] Comunicar, testar e mapear todas as placas disponíveis (física e via IDE)
 
 ## Contribuição
 
