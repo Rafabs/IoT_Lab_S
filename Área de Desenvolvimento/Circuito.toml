@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = 'path-to-your-firmware.hex'
-elf = 'path-to-your-firmware.elf'
+firmware = 'https://github.com/Rafabs/IoT_Lab_S/blob/87ffa90800e5c4c5d03aad47d2ed73d2cddf9983/%C3%81rea%20de%20Desenvolvimento/Circuito.toml.hex'
+elf = 'https://github.com/Rafabs/IoT_Lab_S/blob/87ffa90800e5c4c5d03aad47d2ed73d2cddf9983/%C3%81rea%20de%20Desenvolvimento/Circuito.toml.elf'
