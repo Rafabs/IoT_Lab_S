@@ -11,4 +11,4 @@
 ESP8266:
 *Primeiramente, é necessário adicionar o pacote de placas do módulo ESP8266. Para isso, abra o painel "Preferências" da Arduino IDE (Arquivo > Preferência). Com o painel aberto, digite o link [https://arduino.esp8266.com/stable/package_esp8266com_index.json](https://arduino.esp8266.com/stable/package_esp8266com_index.json) no campo "URLs Adicionais para Gerenciadores de Placas".*
 
-![esp8266](https://github.com/Rafabs/IoT_Lab_S/blob/main/%C3%81rea%20de%20Desenvolvimento/Itens/esp8266_preferences.png)
+![esp8266](https://github.com/Rafabs/IoT_Lab_S/blob/main/%C3%81rea%20de%20Desenvolvimento/Itens/esp8266_preferences.jpg)
