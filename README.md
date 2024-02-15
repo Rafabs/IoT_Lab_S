@@ -33,8 +33,8 @@ Respositório e Projeto em fase de concepção
 - [ ] ```Em desenvolvimento``` Finalizar itens dos primeiros passos desse projeto
 - [ ] Alimentar README.md conforme evolução
 - [ ] Conectar VS Code com Wokwi
-- [ ] Comunicar, testar e mapear todas as placas disponíveis (física e via IDE)
-
+- [ ] Criar e desenvolver diagrama do projeto/pastas
+- [x] Comunicar, testar e mapear todas as placas disponíveis (física e via IDE)
 ## Contribuição
 
 ## Agradecimentos
