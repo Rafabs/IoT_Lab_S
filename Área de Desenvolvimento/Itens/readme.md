@@ -6,7 +6,7 @@
 | UNO R3    | ARDUINO UNO                   | 2341    | 0043    | 5573532373535141B082  | SIM         | SIM        | SIM       | SIM       | -         |
 | UNO R3    | ARDUINO UNO                   | 2341    | 0001    | 649323437383518131F0  | SIM         | SIM        | SIM       | SIM       | -         |
 | UNO R3    | ARDUINO UNO                   | 2341    | 0043    | 55838323835351902120  | SIM         | SIM        | SIM       | SIM       | -         |
-| MEGA      | ARDUINO MEGA OR MEGA 2560     | 2341    | 0010    | 64932343638351619101  | SIM         | SIM        | SIM       | SIM       | -         |
+| MEGA      | ARDUINO MEGA  2560            | 2341    | 0010    | 64932343638351619101  | SIM         | SIM        | SIM       | SIM       | -         |
 | ESP8266   | PLACA NÃO IDENTIFICADA        | 1A86    | 7523    | -                     | SIM         | SIM        | SIM       | NÃO       | -         |
 
 **OBSERVAÇÕES**
