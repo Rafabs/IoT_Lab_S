@@ -93,6 +93,7 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | MC34152P                          | 01      |Controlar  MOSFET  | Motorola  | -V         | 8            | 
 | LB1639                            | 01      |Motor Driver DC    | Genérica  | -V         | 8            |  
 | VIPER22A                          | 01      |Comutador Low-Pwr  | Genérica  | 8-15V      | 8            |  
+| TL431                             | 01      |Regulador Ref. Adj.| Texas     | 2.5-36V    | 8            |  
 
 **OBSERVAÇÕES**
 
@@ -116,54 +117,7 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 **Nada ainda...**
 -
 
-# Inventário de placas Lógicas
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-06/03/2024-green.svg)
-
-| **PLACA**                         | **QTDY**| **Describe**      | **Marca** | **Tensão** | **Terminais**| 
-|-----------------------------------|---------|-------------------|-----------|------------|--------------|
-| ICL7107CPLZ                       | 01      |Conversor ADC      | Genérica  | 6V         | 40           | 
-| PIC16F73                          | 01      |Microcontrolador   | Genérica  | 5.5V       | 28           | 
-| PCI/PNP 686 MX 28F1000P@PLCC32    | 01      |BIOS Computer      | Genérica  | 5.5V       | 32           | 
-| SAA3010                           | 01      |Tx IR Control. Rem.| Genérica  | 5.5V       | 15           | 
-| W49F002U12BN                      | 01      |Memoria Flash CMOS | Genérica  | 5V         | 32           | 
-| TDA5850                           | 01      |I/O Video TV       | SIEMENS   | 15V        | 8            | 
-| LM1881                            | 01      |Sync separator vid | Genérica  | 15V        | 8            | 
-| DBL339                            | 01      |Amplificador Oper. | Genérica  | 2-36V      | 16           | 
-| DBL494                            | 01      |Módulo PWM         | Genérica  | 42V        | 16           | 
-| LM339N                            | 01      |Amplificador Oper. | Motorola  | 36V        | 14           | 
-| LM324N                            | 02      |Amplificador Oper. | Genérica  | 3-30 V     | 14           | 
-| KA324                             | 01      |Amplificador Oper. | Samsung   | 18-32V     | 14           | 
-| GD4013B                           | 01      |Flip-Flop          | Genérica  | 5-15V      | 14           | 
-| ATMEGA 328P-U                     | 01      |Microcontrolador   | ATMEL     | 5-9V       | 28           | 
-| 7400                              | 03      |NAND Gate          | Genérica  | 5V         | 14           | 
-| 7402                              | 02      |NOR Gate           | Genérica  | 5V         | 14           | 
-| 7404                              | 05      |NOT Gate           | Genérica  | 5V         | 14           | 
-| 7407                              | 02      |Buffer Not Inversor| Genérica  | 5V         | 14           | 
-| 7432                              | 03      |Or Gate            | Genérica  | 5V         | 20           | 
-| 7474                              | 03      |Flip-Flop Tipo D   | Genérica  | 5V         | 14           | 
-| 74138                             | 01      |Decodificador      | Genérica  | 5V         | 14           | 
-| 74244                             | 03      |Buffer Amplificador| Genérica  | 5V         | 20           | 
-| 4093                              | 02      |NAND Gate          | Genérica  | 5V         | 14           | 
-| H11AA1                            | 06      |Octoacoplador      | Genérica  | -V         | 6            | 
-| 4N25                              | 01      |Octoacoplador      | Genérica  | -V         | 6            | 
-| MOC3042                           | 01      |OptoIsolador       | Motorola  | -V         | 6            | 
-| 79L05                             | 01      |Regulador Tensão N | Genérica  | 9V         | 3            | 
-| LM324                             | 05      |Amplificador Oper. | Genérica  | 15V        | 14           | 
-| 4N37                              | 09      |Octoacoplador      | Genérica  | -V         | 6            | 
-| 4N35                              | 02      |Octoacoplador      | Genérica  | -V         | 6            | 
-| MC145028P                         | 01      |Code/Decodificador | Motorola  | 4.5-18V    | 16           | 
-| CA3140EZ                          | 01      |Amplificador Oper. | Genérica  | 15V        | 8            | 
-| MOC3020                           | 01      |OptoIsolador       | Motorola  | -V         | 6            | 
-| L293D                             | 01      |Motor Driver DC    | Genérica  | -V         | 16           | 
-| SN75176AP                         | 01      |Bus Interface      | Genérica  | 5V         | 8            | 
-| MC34152P                          | 01      |Controlar  MOSFET  | Motorola  | -V         | 8            | 
-| LB1639                            | 01      |Motor Driver DC    | Genérica  | -V         | 8            |  
-| VIPER22A                          | 01      |Comutador Low-Pwr  | Genérica  | 8-15V      | 8            |  
-
-**OBSERVAÇÕES**
-
-**Nada ainda...**
--# Inventário de Componentes
+# Inventário de Componentes
 ![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-11/03/2024-green.svg)
 
 | **Componente**                    | **QTDY**| **Describe**      | **Marca** | **V/A**     | **Terminais**| 
@@ -187,6 +141,51 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | Fusível                           | 01      |Ceramica           | Genérica  | 250V/1.5A   | 2            | 
 | Fusível                           | 01      |Vidro              | Genérica  | 250V/30A    | 2            | 
 | Fusível                           | 01      |Vidro              | Genérica  | 1A          | 2            | 
+| Relé                              | 01      |JX1RC3 - 2NA/2NF   | Genérica  | 24VCC       | 8            | 
+| Relé                              | 01      |420012 - 2NA/2NF   | Genérica  | 12VCC       | 8            | 
+| Relé                              | 02      |40.615 - 2NA/2NF   | Genérica  | 24VCC       | 8            | 
+| Relé                              | 01      |AT1RC2 - 1NA/1NF   | Genérica  | 12VCC       | 5            | 
+| Relé                              | 01      |833H-1C-C - 1NA/1NF| Genérica  | 12VCC       | 5            | 
+| Transformador de Pulso            | 02      |SKPT 17 2/2        | Genérica  | -V          | 4            | 
+| Display 7 Segmentos               | 01      |3201BR 2x1         | Genérica  | 5VCC        | 10           | 
+| Display 7 Segmentos               | 03      |FYS-5611BS         | Genérica  | 5VCC        | 10           | 
+| Display 7 Segmentos               | 01      |CL-036RAWA         | Genérica  | 5VCC        | 10           | 
+| Display 7 Segmentos               | 01      |PARA LIGHT A-521E  | Genérica  | 5VCC        | 10           | 
+| Display 7 Segmentos               | 01      |PHDE110K           | Photonic  | 5VCC        | 10           | 
+| Display 7 Segmentos               | 01      |HS-5101AS          | Genérica  | 5VCC        | 10           | 
+| Display 7 Segmentos               | 01      |MLS-4201DSR-16 2x1 | Genérica  | 5VCC        | 16           | 
+| Display 7 Segmentos               | 01      |MLS-4201DSR-16 2x1 | Genérica  | 5VCC        | 16           | 
+| Display 7 Segmentos               | 01      |ZDP-10351G         | Genérica  | 5VCC        | 12           | 
+| Conector D-SUB Macho              | 08      |JAE DA-15PF-R      | JAE       | 5A          | 15           |
+| Ponte Retificadora                | 05      |W10M               | Genérica  | 1kV/1A      | 4            |
+| Ponte Retificadora                | 01      |RBI54              | Genérica  | -V/-A       | 4            |
+| Ponte Retificadora                | 03      |KBP206GL           | Genérica  | 600V/2A     | 4            |
+| Diodo Retificador                 | 02      |MBR2045CT 2x1      | Motorola  | 45V/20A     | 3            |
+| Diodo Retificador                 | 02      |S16C45C 2x1        | Mospec    | 45V/20A     | 3            |
+| Diodo Retificador                 | 01      |MBR10100CT 2x1     | Diodes inc| 70V/10A     | 3            |
+| Diodo Retificador                 | 01      |SBL1040CT 2x1      | Vishay    | 40V/10A     | 3            |
+| Diodo Retificador                 | 02      |S10C40C 2x1        | Mospec    | 40V/10A     | 3            |
+| Diodo Retificador                 | 01      |MUR1620CT 2x1      | ONSEMI    | 200V/16A    | 3            |
+| Diodo Retificador                 | 02      |S10C45C 2x1        | Mospec    | 45V/10A     | 3            |
+| Triac BT137                       | 04      |BT137              | Philips   | 8A          | 3            |
+| MOSFET JCS2N65F                   | 01      |JCS2N65F           | JCS       | 30V/2A      | 3            |
+| Diodo U8100E                      | 01      |U8100E             | Genérica  | 1kV/8A      | 2            |
+| SCR 25TTS12                       | 01      |25TTS12            | Vishay    | 1.2kV/25A   | 3            |
+| Diodo Schottky                    | 01      |YG865C10           | Fuji      | 100V/20A    | 3            |
+| MOSFET SSP2N60A                   | 01      |SSP2N60A           | Genérica  | 30V/2A      | 3            |
+| MOSFET IRF3205                    | 01      |IRF3205            | Genérica  | 55V/110A    | 3            |
+| Diodo Schottky                    | 01      |MBR3045PT          | Fairchild | 45V/30A     | 3            |
+| Diodo 6A8                         | 02      |6A8                | Genérica  | 560V/6A     | 2            |
+| Diodo 6A10                        | 01      |6A10               | Genérica  | 700V/6A     | 2            |
+| Diodo 1N5402                      | 16      |1N5402             | Genérica  | 400V/3A     | 2            |
+| Diodo 1N5404                      | 01      |1N5404             | Genérica  | 400V/3A     | 2            |
+| Diodo 1N5406                      | 01      |1N5406             | Genérica  | 400V/3A     | 2            |
+| Diodo 1N5408                      | 05      |1N5408             | Genérica  | 400V/3A     | 2            |
+| Diodo SB340                       | 02      |SB340              | Genérica  | 40V/3A      | 2            |
+| Diodo SB360                       | 01      |SB360              | Genérica  | 60V/3A      | 2            |
+| Diodo Schottky                    | 01      |MUR460             | Genérica  | 60V/4A      | 2            |
+| Diodo 1N5363B                     | 23      |1N5363B            | Genérica  | 30V/5A      | 2            |
+| Diodo 1N5364B                     | 02      |1N5364B            | Genérica  | 33V/5A      | 2            |
 
 **OBSERVAÇÕES**
 
