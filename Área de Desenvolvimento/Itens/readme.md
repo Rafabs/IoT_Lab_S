@@ -85,6 +85,7 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | LM324                             | 05      |Amplificador Oper. | Genérica  | 15V        | 14           | 
 | 4N37                              | 09      |Octoacoplador      | Genérica  | -V         | 6            | 
 | 4N35                              | 02      |Octoacoplador      | Genérica  | -V         | 6            | 
+| CT817C                            | 01      |Octoacoplador      | Genérica  | -V         | 4            | 
 | MC145028P                         | 01      |Code/Decodificador | Motorola  | 4.5-18V    | 16           | 
 | CA3140EZ                          | 01      |Amplificador Oper. | Genérica  | 15V        | 8            | 
 | MOC3020                           | 01      |OptoIsolador       | Motorola  | -V         | 6            | 
@@ -93,7 +94,7 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | MC34152P                          | 01      |Controlar  MOSFET  | Motorola  | -V         | 8            | 
 | LB1639                            | 01      |Motor Driver DC    | Genérica  | -V         | 8            |  
 | VIPER22A                          | 01      |Comutador Low-Pwr  | Genérica  | 8-15V      | 8            |  
-| TL431                             | 01      |Regulador Ref. Adj.| Texas     | 2.5-36V    | 8            |  
+| TL431                             | 02      |Regulador Ref. Adj.| Texas     | 2.5-36V    | 8            |  
 
 **OBSERVAÇÕES**
 
@@ -184,8 +185,39 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | Diodo SB340                       | 02      |SB340              | Genérica  | 40V/3A      | 2            |
 | Diodo SB360                       | 01      |SB360              | Genérica  | 60V/3A      | 2            |
 | Diodo Schottky                    | 01      |MUR460             | Genérica  | 60V/4A      | 2            |
-| Diodo 1N5363B                     | 23      |1N5363B            | Genérica  | 30V/5A      | 2            |
+| Diodo 1N4001                      | 04      |1N4001             | Genérica  | 35V/1A      | 2            |
+| Diodo 1N4002                      | 04      |1N4002             | Genérica  | 70V/1A      | 2            |
+| Diodo 1N4003                      | 04      |1N4003             | Genérica  | 140V/1A     | 2            |
+| Diodo 1N4004                      | 07      |1N4004             | Genérica  | 280V/1A     | 2            |
+| Diodo 1N4007                      | 84      |1N4007             | Genérica  | 700V/1A     | 2            |
+| Diodo 1N4936                      | 0X      |1N4936             | Genérica  | 280V/1A     | 2            |
+| Diodo 1N5363B                     | 24      |1N5363B            | Genérica  | 30V/5A      | 2            |
 | Diodo 1N5364B                     | 02      |1N5364B            | Genérica  | 33V/5A      | 2            |
+| Diodo 1N5819                      | 0X      |1N5819             | Genérica  | 28V/1A      | 2            |
+| Diodo 1N5399                      | 03      |1N5399             | Genérica  | 700V/1.5A   | 2            |
+| Diodo 2A05                        | 14      |2A05               | Genérica  | 420V/2A     | 2            |
+| Diodo FR104                       | 03      |FR104              | Genérica  | 280V/1A     | 2            |
+| Diodo FR107                       | 09      |FR107              | Genérica  | 700V/1A     | 2            |
+| Diodo FR154                       | 03      |FR154              | Genérica  | 280V/1.5A   | 2            |
+| Diodo FR1007                      | 06      |FR1007             | Genérica  | 700V/10A    | 2            |
+| Diodo HER303                      | 0X      |HER303             | Genérica  | 140V/3A     | 2            |
+| Diodo PR1007                      | 06      |PR1007             | Genérica  | 700V/1A     | 2            |
+| Diodo PKE36CA                     | 06      |PKE36CA            | Genérica  | 36V/12A     | 2            |
+| Diodo RL257                       | 04      |RL257              | Genérica  | 700V/2.5A   | 2            |
+| Diodo RL205                       | 04      |RL205              | Genérica  | 420V/2A     | 2            |
+| Diodo SB260                       | 0X      |SB260              | Genérica  | 42V/2A      | 2            |
+| Diodo SHG2D                       | 0X      |SHG2D              | Genérica  | 1kV/6A      | 2            |
+| Diodo SHK65-45                    | 0X      |SHK65-45           | Genérica  | 60V/3A      | 2            |
+| Diodo Zenner 1N5380B              | 02      |1N5380B            | Genérica  | 120V/1.3A   | 2            |
+| Diodo Zenner 1N4146               | 0X      |1N4146             | Genérica  | -V/-A       | 2            |
+| Diodo Zenner 1N4148               | 04      |1N4148             | Genérica  | -V/-A       | 2            |
+| Diodo Zenner 1N4735A              | 0X      |1N4735A            | Genérica  | 6.2V/41A    | 2            |
+| Diodo Zenner 1N4738A              | 0X      |1N4738A            | Genérica  | 8.2V/10A    | 2            |
+| Diodo Zenner 1N4739A              | 0X      |1N4739A            | Genérica  | 9.1V/28A    | 2            |
+| Diodo Zenner 1N4747               | 0X      |1N4747             | Genérica  | 20V/12.5A   | 2            |
+| Diodo Zenner 1N4748               | 03      |1N4748             | Genérica  | 22V/11.5A   | 2            |
+| Diodo Zenner 1N4749               | 0X      |1N4749             | Genérica  | 24V/10.5A   | 2            |
+| Diodo Zenner 1N451A               | 02      |1N451A             | Genérica  | 30V/8.5A    | 2            |
 
 **OBSERVAÇÕES**
 
