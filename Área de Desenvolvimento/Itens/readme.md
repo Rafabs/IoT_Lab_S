@@ -85,7 +85,7 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | LM324                             | 05      |Amplificador Oper. | Genérica  | 15V        | 14           | 
 | 4N37                              | 09      |Octoacoplador      | Genérica  | -V         | 6            | 
 | 4N35                              | 02      |Octoacoplador      | Genérica  | -V         | 6            | 
-| CT817C                            | 01      |Octoacoplador      | Genérica  | -V         | 4            | 
+| CT817C                            | 02      |Octoacoplador      | Genérica  | -V         | 4            | 
 | MC145028P                         | 01      |Code/Decodificador | Motorola  | 4.5-18V    | 16           | 
 | CA3140EZ                          | 01      |Amplificador Oper. | Genérica  | 15V        | 8            | 
 | MOC3020                           | 01      |OptoIsolador       | Motorola  | -V         | 6            | 
@@ -95,6 +95,8 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | LB1639                            | 01      |Motor Driver DC    | Genérica  | -V         | 8            |  
 | VIPER22A                          | 01      |Comutador Low-Pwr  | Genérica  | 8-15V      | 8            |  
 | TL431                             | 02      |Regulador Ref. Adj.| Texas     | 2.5-36V    | 8            |  
+| TL431A/C/K                        | 07      |Regulador Ref. Adj.| Texas     | 2.5-36V    | 3            |  
+| PS2561                            | 01      |Isolador Acoplado  | NEC       | 5kV        | 3            |  
 
 **OBSERVAÇÕES**
 
@@ -119,7 +121,7 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 -
 
 # Inventário de Componentes
-![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-11/03/2024-green.svg)
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-20/03/2024-green.svg)
 
 | **Componente**                    | **QTDY**| **Describe**      | **Marca** | **V/A**     | **Terminais**| 
 |-----------------------------------|---------|-------------------|-----------|-------------|--------------|
@@ -190,34 +192,96 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | Diodo 1N4003                      | 04      |1N4003             | Genérica  | 140V/1A     | 2            |
 | Diodo 1N4004                      | 07      |1N4004             | Genérica  | 280V/1A     | 2            |
 | Diodo 1N4007                      | 84      |1N4007             | Genérica  | 700V/1A     | 2            |
-| Diodo 1N4936                      | 0X      |1N4936             | Genérica  | 280V/1A     | 2            |
+| Diodo 1N4936                      | 01      |1N4936             | Genérica  | 280V/1A     | 2            |
 | Diodo 1N5363B                     | 24      |1N5363B            | Genérica  | 30V/5A      | 2            |
 | Diodo 1N5364B                     | 02      |1N5364B            | Genérica  | 33V/5A      | 2            |
-| Diodo 1N5819                      | 0X      |1N5819             | Genérica  | 28V/1A      | 2            |
+| Diodo 1N5819                      | 01      |1N5819             | Genérica  | 28V/1A      | 2            |
 | Diodo 1N5399                      | 03      |1N5399             | Genérica  | 700V/1.5A   | 2            |
 | Diodo 2A05                        | 14      |2A05               | Genérica  | 420V/2A     | 2            |
 | Diodo FR104                       | 03      |FR104              | Genérica  | 280V/1A     | 2            |
 | Diodo FR107                       | 09      |FR107              | Genérica  | 700V/1A     | 2            |
 | Diodo FR154                       | 03      |FR154              | Genérica  | 280V/1.5A   | 2            |
 | Diodo FR1007                      | 06      |FR1007             | Genérica  | 700V/10A    | 2            |
-| Diodo HER303                      | 0X      |HER303             | Genérica  | 140V/3A     | 2            |
+| Diodo HER303                      | 01      |HER303             | Genérica  | 140V/3A     | 2            |
 | Diodo PR1007                      | 06      |PR1007             | Genérica  | 700V/1A     | 2            |
 | Diodo PKE36CA                     | 06      |PKE36CA            | Genérica  | 36V/12A     | 2            |
 | Diodo RL257                       | 04      |RL257              | Genérica  | 700V/2.5A   | 2            |
 | Diodo RL205                       | 04      |RL205              | Genérica  | 420V/2A     | 2            |
-| Diodo SB260                       | 0X      |SB260              | Genérica  | 42V/2A      | 2            |
-| Diodo SHG2D                       | 0X      |SHG2D              | Genérica  | 1kV/6A      | 2            |
-| Diodo SHK65-45                    | 0X      |SHK65-45           | Genérica  | 60V/3A      | 2            |
+| Diodo SB260                       | 01      |SB260              | Genérica  | 42V/2A      | 2            |
+| Diodo SHG2D                       | 01      |SHG2D              | Genérica  | 1kV/6A      | 2            |
+| Diodo SHK65-45                    | 01      |SHK65-45           | Genérica  | 60V/3A      | 2            |
 | Diodo Zenner 1N5380B              | 02      |1N5380B            | Genérica  | 120V/1.3A   | 2            |
-| Diodo Zenner 1N4146               | 0X      |1N4146             | Genérica  | -V/-A       | 2            |
+| Diodo Zenner 1N4146               | 01      |1N4146             | Genérica  | -V/-A       | 2            |
 | Diodo Zenner 1N4148               | 04      |1N4148             | Genérica  | -V/-A       | 2            |
-| Diodo Zenner 1N4735A              | 0X      |1N4735A            | Genérica  | 6.2V/41A    | 2            |
-| Diodo Zenner 1N4738A              | 0X      |1N4738A            | Genérica  | 8.2V/10A    | 2            |
-| Diodo Zenner 1N4739A              | 0X      |1N4739A            | Genérica  | 9.1V/28A    | 2            |
-| Diodo Zenner 1N4747               | 0X      |1N4747             | Genérica  | 20V/12.5A   | 2            |
+| Diodo Zenner 1N4735A              | 01      |1N4735A            | Genérica  | 6.2V/41A    | 2            |
+| Diodo Zenner 1N4738A              | 01      |1N4738A            | Genérica  | 8.2V/10A    | 2            |
+| Diodo Zenner 1N4739A              | 01      |1N4739A            | Genérica  | 9.1V/28A    | 2            |
+| Diodo Zenner 1N4747               | 01      |1N4747             | Genérica  | 20V/12.5A   | 2            |
 | Diodo Zenner 1N4748               | 03      |1N4748             | Genérica  | 22V/11.5A   | 2            |
-| Diodo Zenner 1N4749               | 0X      |1N4749             | Genérica  | 24V/10.5A   | 2            |
+| Diodo Zenner 1N4749               | 01      |1N4749             | Genérica  | 24V/10.5A   | 2            |
 | Diodo Zenner 1N451A               | 02      |1N451A             | Genérica  | 30V/8.5A    | 2            |
+| Transistor BJT NPN 2N2222A        | 22      |2N2222A            | Genérica  | 20V/0.8A    | 3            |
+| Transistor BJT NPN 2N3055A        | 02      |2N3055A            | Genérica  | 20V/0.8A    | 3            |
+| Transistor JFET N 2N4393          | 03      |2N4393             | Genérica  | 40V/0.35A   | 3            |
+| Transistor BJT N 2N2907A          | 08      |2N2907A            | Genérica  | 40V/0.6A    | 3            |
+| Transistor NPN D2061              | 08      |D2061              | Genérica  | 60V/3A      | 3            |
+| Transistor BJT NPN TIP31C         | 05      |TIP31C             | Genérica  | 100V/3A     | 3            |
+| Transistor BJT NPN TIP41C         | 05      |TIP41C             | Genérica  | 100V/6A     | 3            |
+| Transistor BJT NPN TIP120         | 04      |TIP120             | Genérica  | 60V/5A      | 3            |
+| Transistor BJT NPN TIP122         | 05      |TIP122             | Genérica  | 100V/5A     | 3            |
+| Transistor BJT NPN TIP125         | 07      |TIP125             | Genérica  | 60V/5A      | 3            |
+| Transistor BJT PNP B1187          | 01      |B1187              | Genérica  | 60V/1A      | 3            |
+| Transistor MOSFET N 2N65          | 01      |2N65               | Genérica  | -V/-A       | 3            |
+| Transistor MOSFET P C2335R        | 02      |C2335R             | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP B1370          | 01      |B1370              | Genérica  | 50V/5A      | 3            |
+| Triac BT139                       | 01      |BT139              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN C4106          | 02      |C4106              | Genérica  | 60V/5A      | 3            |
+| Transistor BJT NPN KSH13007A      | 02      |KSH13007A          | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP D4206          | 02      |D4206              | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP D2037          | 01      |D2037              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN D13005D        | 02      |D13005D            | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN C4242          | 02      |C4242              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN C5027R         | 02      |C5027R             | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN D362           | 01      |D362               | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN D13007         | 02      |D13007             | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP B772           | 01      |B772               | Genérica  | -V/-A       | 3            |
+| Transistor MOSFET N 4N60F         | 01      |4N60F              | Genérica  | -V/-A       | 3            |
+| Transistor MOSFET N K2996         | 01      |K2996              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN TIPL760A       | 01      |TIPL760A           | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC337          | 01      |BC337              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC338          | 01      |BC338              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC546          | 01      |BC546              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC547          | 03      |BC547              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC548          | 13      |BC548              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC556          | 01      |BC556              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC557          | 01      |BC557              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC558          | 01      |BC558              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BC637          | 01      |BC637              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BF494B         | 02      |BF494B             | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN BF495D         | 03      |BF495D             | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN C1815          | 04      |C1815              | Genérica  | -V/-A       | 3            |
+| SCR MCR100-6                      | 01      |MCR100-6           | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN 13001          | 02      |13001              | Genérica  | -V/-A       | 3            |
+| Transistor MOSFET PNP MPSA94      | 01      |MPSA94             | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN C945           | 04      |C945               | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP KSP10          | 02      |KSP10              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN 2SC3202        | 03      |2SC3202            | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP DC9015         | 03      |DC9015             | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP S9013          | 01      |S9013              | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP A1015          | 02      |A1015              | Genérica  | -V/-A       | 3            |
+| Transistor JFET N 122L            | 01      |122L               | Genérica  | 40V/0.35A   | 3            |
+| Transistor BJT PNP 2N3906         | 01      |2N3906             | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP S850           | 03      |S850               | Genérica  | -V/-A       | 3            |
+| Transistor BJT PNP A1270          | 01      |A1270              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN 2N6517         | 01      |2N6517             | Genérica  | -V/-A       | 3            |
+| SCR PCR406J                       | 05      |PCR406J            | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN SS9018         | 01      |SS9018             | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN 9014C          | 01      |9014C              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN 2328A          | 01      |2328A              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN S8050          | 01      |S8050              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN C1740          | 05      |C1740              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN D2144          | 02      |D2144              | Genérica  | -V/-A       | 3            |
+| Transistor BJT NPN C3207          | 01      |C3207              | Genérica  | -V/-A       | 3            |
 
 **OBSERVAÇÕES**
 
