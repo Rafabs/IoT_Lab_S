@@ -287,3 +287,21 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 
 **Nada ainda...**
 -
+
+# Inventário de Memória RAM
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-23/03/2024-green.svg)
+
+| **PLACA**                         | **QTDY**| **Describe**            | **Capacidade** | **Marca** | 
+|-----------------------------------|---------|-------------------------|----------------|-----------|
+| MEMÓRIA RAM DDR3                  | 03      |DDR3 2GB 1333MHz 2RX8 PC3| 2GB            | SMART     |  
+| MEMÓRIA RAM DDR2                  | 0x      |DDR2 2GB 667MHz PC2      | 2GB            | Patriot   |  
+| MEMÓRIA RAM DDR2                  | 0x      |DDR2 1GB 2Rx16 PC2       | 1GB            | SMART     |  
+| MEMÓRIA RAM DDR3                  | 0x      |DDR3 1GB 1Rx8 PC3        | 2GB            | SMART     |  
+| MEMÓRIA RAM DDR2                  | 0x      |DDR2 2GB 800MHz          | 2GB            | Kingston  |  
+| MEMÓRIA SDRAM                     | 0x      |SDRAM 128MB 133MHz       | 128MB          | Genérica  |  
+
+
+**OBSERVAÇÕES**
+
+**Nada ainda...**
+-
