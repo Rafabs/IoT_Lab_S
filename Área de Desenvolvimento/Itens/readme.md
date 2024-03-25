@@ -297,8 +297,11 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | MEMÓRIA RAM DDR2                  | 0x      |DDR2 2GB 667MHz PC2      | 2GB            | Patriot   |  
 | MEMÓRIA RAM DDR2                  | 0x      |DDR2 1GB 2Rx16 PC2       | 1GB            | SMART     |  
 | MEMÓRIA RAM DDR3                  | 0x      |DDR3 1GB 1Rx8 PC3        | 2GB            | SMART     |  
-| MEMÓRIA RAM DDR2                  | 0x      |DDR2 2GB 800MHz          | 2GB            | Kingston  |  
-| MEMÓRIA SDRAM                     | 0x      |SDRAM 128MB 133MHz       | 128MB          | Genérica  |  
+| MEMÓRIA RAM DDR2                  | 03      |DDR2 2GB 800MHz          | 2GB            | Kingston  |  
+| MEMÓRIA SDRAM                     | 02      |SDRAM 128MB 133MHz       | 128MB          | Genérica  |  
+| MEMÓRIA RAM                       | 04      |256MB 400MHz             | 256MB          | Genérica  |  
+| MEMÓRIA RAM                       | 01      |512MB 400MHz             | 512MB          | Genérica  |  
+| MEMÓRIA RAM                       | 01      |32MB 400MHz              | 32MB           | IBM       |  
 
 
 **OBSERVAÇÕES**
