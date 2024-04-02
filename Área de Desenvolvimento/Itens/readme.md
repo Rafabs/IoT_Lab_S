@@ -319,3 +319,17 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 
 **Nada ainda...**
 -
+
+# Inventário de Parafusos
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-02/04/2024-green.svg)
+
+| **Parafuso**                          | **QTDY**| **Describe**            | **Diametro**   | **Medida da chave** | 
+|---------------------------------------|---------|-------------------------|----------------|---------------------|
+| PARAFUSO ALLEN SEXTAVADO r5,5mm       | 110     |c=15,5mm x rosca=5,5mm   | 5,5            | 5,5                 |  
+| PARAFUSO ALLEN SEXTAVADO r4,8mm       | 09      |c=16,8mm x rosca=4,8mm   | 4,8            | 4,8                 |  
+
+**OBSERVAÇÕES**
+
+**Nada ainda...**
+-
+
