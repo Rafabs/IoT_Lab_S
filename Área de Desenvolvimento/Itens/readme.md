@@ -294,8 +294,12 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 | LED 5mm Laranja Alto Brilho           | 20      |5mm LARANJA ALT.BR. | Genérica  | 2,2V/0,02A  | 2            |
 | LED 5mm Vermelho                      | 77      |5mm VM              | Genérica  | 1,7V/0,02A  | 2            |
 | LED 3mm Vermelho                      | 16      |3mm VM              | Genérica  | 1,7V/0,02A  | 2            |
-| LED 5mm Vermelho Alto Brilho          | 33      |5mm VM ALT.BR       | Genérica  | 1,7V/0,02A  | 2            |
+| LED 5mm Vermelho Alto Brilho          | 33      |5mm VM ALT.BR       | Genérica  | 2,0V/0,02A  | 2            |
 | LED 2x5x7 Vermelho                    | 06      |Difuso VM Retangular| Genérica  | 1,7V/0,02A  | 2            |
+| LED 5mm Amarelo                       | 44      |5mm AM              | Genérica  | 1,7V/0,02A  | 2            |
+| LED 5mm Amarelo  Alto Brilho          | 22      |5mm AM ALT.BR       | Genérica  | 2,0V/0,02A  | 2            |
+| LED 2x5x7 Amarelo                     | 05      |Difuso AM Retangular| Genérica  | 1,7V/0,02A  | 2            |
+| LED 3mm Amarelo                       | 04      |3mm AM              | Genérica  | 1,7V/0,02A  | 2            |
 
 **OBSERVAÇÕES**
 
