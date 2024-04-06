@@ -340,3 +340,22 @@ Fonte (imagem): https://www.robocore.net/tutoriais/programando-o-esp8266-pela-ar
 **Nada ainda...**
 -
 
+# Inventário de Ferramentas
+![Atualização](https://img.shields.io/badge/Atualiza%C3%A7%C3%A3o-06/04/2024-green.svg)
+
+| **Parafuso**                          | **QTDY**| **Describe**                 | **Marca**      |
+|---------------------------------------|---------|------------------------------|----------------|
+| CHAVE PRECISÃO TORX DOM HIDALGO       | 01      | Chave precisão 31 em 1       | Genérico       |
+| BOSCH KIT DE PONTAS E BROCAS X-LINE   | 01      | KIT PONTA E BROCA 33 PÇS     | BOSCH          |
+| KIT CHAVE DE FENDA MULTIFUNCIONAL     | 01      | KIT CHAVE P/ CELULAR         | Genérico       |
+| PARAFUSADEIRA BOSCH                   | 01      | FURADEIRA GSR 120-Li 12V     | BOSCH          |
+| Shampoo Algoo Powersports Lava Bikes  | 01      | Lava Bikes Refil 1L          | Powersports    |
+| Desengraxante Bike Concentrado Algoo  | 01      | Desengraxante Concentrado 1L | Powersports    |
+| Óleo Lubrificante Corrente Algoo Cera | 01      | Lubrificante Corrente 60ml   | Powersports    |
+| Limpador Corrente Bike                | 01      | Limpador Corrente Bike       | Genérico       |
+| Escova Limpador E Raspador K7 Catraca | 01      | Escova Limpador E Raspador K7| Genérico       |
+
+**OBSERVAÇÕES**
+
+**Nada ainda...**
+-
